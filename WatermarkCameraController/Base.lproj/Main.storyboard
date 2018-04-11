@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EXI-0d-RLM"/>
+                        <viewControllerLayoutGuide type="bottom" id="CF7-XJ-rhH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3SA-Rz-UJG">
+                                <rect key="frame" x="0.0" y="50" width="375" height="508"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fks-Rt-Uda">
+                                <rect key="frame" x="156.5" y="279.5" width="61" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="拍照"/>
+                                <connections>
+                                    <action selector="shot:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Peq-df-QAV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3SA-Rz-UJG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4js-Al-9LB"/>
+                            <constraint firstItem="fks-Rt-Uda" firstAttribute="centerX" secondItem="3SA-Rz-UJG" secondAttribute="centerX" id="GlT-bG-uKk"/>
+                            <constraint firstAttribute="trailing" secondItem="3SA-Rz-UJG" secondAttribute="trailing" id="Pkq-Wh-kIp"/>
+                            <constraint firstItem="CF7-XJ-rhH" firstAttribute="top" secondItem="3SA-Rz-UJG" secondAttribute="bottom" constant="109" id="XLx-jK-imd"/>
+                            <constraint firstItem="fks-Rt-Uda" firstAttribute="centerY" secondItem="3SA-Rz-UJG" secondAttribute="centerY" id="pQK-NJ-7dI"/>
+                            <constraint firstItem="3SA-Rz-UJG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="50" id="r6L-PG-YBD"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="preview" destination="3SA-Rz-UJG" id="cw4-tv-ayW"/>
+                        <outlet property="shotBtn" destination="fks-Rt-Uda" id="vv4-ng-D1J"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

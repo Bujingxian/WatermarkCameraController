@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		089BB6F1207E5819006FCAE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 089BB6F0207E5819006FCAE8 /* AppDelegate.m */; };
+		089BB6F4207E5819006FCAE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 089BB6F3207E5819006FCAE8 /* ViewController.m */; };
+		089BB6F7207E5819006FCAE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 089BB6F5207E5819006FCAE8 /* Main.storyboard */; };
+		089BB6F9207E5819006FCAE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 089BB6F8207E5819006FCAE8 /* Assets.xcassets */; };
+		089BB6FC207E5819006FCAE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 089BB6FA207E5819006FCAE8 /* LaunchScreen.storyboard */; };
+		089BB6FF207E5819006FCAE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 089BB6FE207E5819006FCAE8 /* main.m */; };
+		089BB709207E5819006FCAE8 /* WatermarkCameraControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 089BB708207E5819006FCAE8 /* WatermarkCameraControllerTests.m */; };
+		089BB714207E581A006FCAE8 /* WatermarkCameraControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 089BB713207E581A006FCAE8 /* WatermarkCameraControllerUITests.m */; };
+		089BB729207E5921006FCAE8 /* WatermarkCameraOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 089BB725207E5921006FCAE8 /* WatermarkCameraOverlayView.m */; };
+		089BB72A207E5921006FCAE8 /* WatermarkCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 089BB726207E5921006FCAE8 /* WatermarkCameraController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		089BB705207E5819006FCAE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089BB6E4207E5819006FCAE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 089BB6EB207E5819006FCAE8;
+			remoteInfo = WatermarkCameraController;
+		};
+		089BB710207E581A006FCAE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089BB6E4207E5819006FCAE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 089BB6EB207E5819006FCAE8;
+			remoteInfo = WatermarkCameraController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		089BB6EC207E5819006FCAE8 /* WatermarkCameraController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatermarkCameraController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		089BB6EF207E5819006FCAE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		089BB6F0207E5819006FCAE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		089BB6F2207E5819006FCAE8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		089BB6F3207E5819006FCAE8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		089BB6F6207E5819006FCAE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		089BB6F8207E5819006FCAE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		089BB6FB207E5819006FCAE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		089BB6FD207E5819006FCAE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		089BB6FE207E5819006FCAE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		089BB704207E5819006FCAE8 /* WatermarkCameraControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatermarkCameraControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		089BB708207E5819006FCAE8 /* WatermarkCameraControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatermarkCameraControllerTests.m; sourceTree = "<group>"; };
+		089BB70A207E5819006FCAE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		089BB70F207E581A006FCAE8 /* WatermarkCameraControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatermarkCameraControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		089BB713207E581A006FCAE8 /* WatermarkCameraControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatermarkCameraControllerUITests.m; sourceTree = "<group>"; };
+		089BB715207E581A006FCAE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		089BB724207E5921006FCAE8 /* WatermarkCameraController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatermarkCameraController.h; sourceTree = "<group>"; };
+		089BB725207E5921006FCAE8 /* WatermarkCameraOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatermarkCameraOverlayView.m; sourceTree = "<group>"; };
+		089BB726207E5921006FCAE8 /* WatermarkCameraController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatermarkCameraController.m; sourceTree = "<group>"; };
+		089BB727207E5921006FCAE8 /* WatermarkCameraOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatermarkCameraOverlayView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		089BB6E9207E5819006FCAE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089BB701207E5819006FCAE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089BB70C207E581A006FCAE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089BB6E3207E5819006FCAE8 = {
+			isa = PBXGroup;
+			children = (
+				089BB6EE207E5819006FCAE8 /* WatermarkCameraController */,
+				089BB707207E5819006FCAE8 /* WatermarkCameraControllerTests */,
+				089BB712207E581A006FCAE8 /* WatermarkCameraControllerUITests */,
+				089BB6ED207E5819006FCAE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		089BB6ED207E5819006FCAE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				089BB6EC207E5819006FCAE8 /* WatermarkCameraController.app */,
+				089BB704207E5819006FCAE8 /* WatermarkCameraControllerTests.xctest */,
+				089BB70F207E581A006FCAE8 /* WatermarkCameraControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		089BB6EE207E5819006FCAE8 /* WatermarkCameraController */ = {
+			isa = PBXGroup;
+			children = (
+				089BB6EF207E5819006FCAE8 /* AppDelegate.h */,
+				089BB6F0207E5819006FCAE8 /* AppDelegate.m */,
+				089BB6F2207E5819006FCAE8 /* ViewController.h */,
+				089BB6F3207E5819006FCAE8 /* ViewController.m */,
+				089BB723207E5921006FCAE8 /* WatermarkCameraController */,
+				089BB6F5207E5819006FCAE8 /* Main.storyboard */,
+				089BB6F8207E5819006FCAE8 /* Assets.xcassets */,
+				089BB6FA207E5819006FCAE8 /* LaunchScreen.storyboard */,
+				089BB6FD207E5819006FCAE8 /* Info.plist */,
+				089BB6FE207E5819006FCAE8 /* main.m */,
+			);
+			path = WatermarkCameraController;
+			sourceTree = "<group>";
+		};
+		089BB707207E5819006FCAE8 /* WatermarkCameraControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				089BB708207E5819006FCAE8 /* WatermarkCameraControllerTests.m */,
+				089BB70A207E5819006FCAE8 /* Info.plist */,
+			);
+			path = WatermarkCameraControllerTests;
+			sourceTree = "<group>";
+		};
+		089BB712207E581A006FCAE8 /* WatermarkCameraControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				089BB713207E581A006FCAE8 /* WatermarkCameraControllerUITests.m */,
+				089BB715207E581A006FCAE8 /* Info.plist */,
+			);
+			path = WatermarkCameraControllerUITests;
+			sourceTree = "<group>";
+		};
+		089BB723207E5921006FCAE8 /* WatermarkCameraController */ = {
+			isa = PBXGroup;
+			children = (
+				089BB724207E5921006FCAE8 /* WatermarkCameraController.h */,
+				089BB726207E5921006FCAE8 /* WatermarkCameraController.m */,
+				089BB727207E5921006FCAE8 /* WatermarkCameraOverlayView.h */,
+				089BB725207E5921006FCAE8 /* WatermarkCameraOverlayView.m */,
+			);
+			path = WatermarkCameraController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		089BB6EB207E5819006FCAE8 /* WatermarkCameraController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 089BB718207E581A006FCAE8 /* Build configuration list for PBXNativeTarget "WatermarkCameraController" */;
+			buildPhases = (
+				089BB6E8207E5819006FCAE8 /* Sources */,
+				089BB6E9207E5819006FCAE8 /* Frameworks */,
+				089BB6EA207E5819006FCAE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatermarkCameraController;
+			productName = WatermarkCameraController;
+			productReference = 089BB6EC207E5819006FCAE8 /* WatermarkCameraController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		089BB703207E5819006FCAE8 /* WatermarkCameraControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 089BB71B207E581A006FCAE8 /* Build configuration list for PBXNativeTarget "WatermarkCameraControllerTests" */;
+			buildPhases = (
+				089BB700207E5819006FCAE8 /* Sources */,
+				089BB701207E5819006FCAE8 /* Frameworks */,
+				089BB702207E5819006FCAE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				089BB706207E5819006FCAE8 /* PBXTargetDependency */,
+			);
+			name = WatermarkCameraControllerTests;
+			productName = WatermarkCameraControllerTests;
+			productReference = 089BB704207E5819006FCAE8 /* WatermarkCameraControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		089BB70E207E581A006FCAE8 /* WatermarkCameraControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 089BB71E207E581A006FCAE8 /* Build configuration list for PBXNativeTarget "WatermarkCameraControllerUITests" */;
+			buildPhases = (
+				089BB70B207E581A006FCAE8 /* Sources */,
+				089BB70C207E581A006FCAE8 /* Frameworks */,
+				089BB70D207E581A006FCAE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				089BB711207E581A006FCAE8 /* PBXTargetDependency */,
+			);
+			name = WatermarkCameraControllerUITests;
+			productName = WatermarkCameraControllerUITests;
+			productReference = 089BB70F207E581A006FCAE8 /* WatermarkCameraControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089BB6E4207E5819006FCAE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "HangZhouFaDaiGuoJiMaoYi Co. Ltd";
+				TargetAttributes = {
+					089BB6EB207E5819006FCAE8 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					089BB703207E5819006FCAE8 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 089BB6EB207E5819006FCAE8;
+					};
+					089BB70E207E581A006FCAE8 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 089BB6EB207E5819006FCAE8;
+					};
+				};
+			};
+			buildConfigurationList = 089BB6E7207E5819006FCAE8 /* Build configuration list for PBXProject "WatermarkCameraController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 089BB6E3207E5819006FCAE8;
+			productRefGroup = 089BB6ED207E5819006FCAE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				089BB6EB207E5819006FCAE8 /* WatermarkCameraController */,
+				089BB703207E5819006FCAE8 /* WatermarkCameraControllerTests */,
+				089BB70E207E581A006FCAE8 /* WatermarkCameraControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		089BB6EA207E5819006FCAE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089BB6FC207E5819006FCAE8 /* LaunchScreen.storyboard in Resources */,
+				089BB6F9207E5819006FCAE8 /* Assets.xcassets in Resources */,
+				089BB6F7207E5819006FCAE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089BB702207E5819006FCAE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089BB70D207E581A006FCAE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		089BB6E8207E5819006FCAE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089BB6F4207E5819006FCAE8 /* ViewController.m in Sources */,
+				089BB72A207E5921006FCAE8 /* WatermarkCameraController.m in Sources */,
+				089BB6FF207E5819006FCAE8 /* main.m in Sources */,
+				089BB6F1207E5819006FCAE8 /* AppDelegate.m in Sources */,
+				089BB729207E5921006FCAE8 /* WatermarkCameraOverlayView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089BB700207E5819006FCAE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089BB709207E5819006FCAE8 /* WatermarkCameraControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089BB70B207E581A006FCAE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089BB714207E581A006FCAE8 /* WatermarkCameraControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		089BB706207E5819006FCAE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 089BB6EB207E5819006FCAE8 /* WatermarkCameraController */;
+			targetProxy = 089BB705207E5819006FCAE8 /* PBXContainerItemProxy */;
+		};
+		089BB711207E581A006FCAE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 089BB6EB207E5819006FCAE8 /* WatermarkCameraController */;
+			targetProxy = 089BB710207E581A006FCAE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089BB6F5207E5819006FCAE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089BB6F6207E5819006FCAE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		089BB6FA207E5819006FCAE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089BB6FB207E5819006FCAE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		089BB716207E581A006FCAE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		089BB717207E581A006FCAE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		089BB719207E581A006FCAE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2W3D7G5P4;
+				INFOPLIST_FILE = WatermarkCameraController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.uxiu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		089BB71A207E581A006FCAE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2W3D7G5P4;
+				INFOPLIST_FILE = WatermarkCameraController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.uxiu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		089BB71C207E581A006FCAE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2W3D7G5P4;
+				INFOPLIST_FILE = WatermarkCameraControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.uxiu.WatermarkCameraControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatermarkCameraController.app/WatermarkCameraController";
+			};
+			name = Debug;
+		};
+		089BB71D207E581A006FCAE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2W3D7G5P4;
+				INFOPLIST_FILE = WatermarkCameraControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.uxiu.WatermarkCameraControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatermarkCameraController.app/WatermarkCameraController";
+			};
+			name = Release;
+		};
+		089BB71F207E581A006FCAE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2W3D7G5P4;
+				INFOPLIST_FILE = WatermarkCameraControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.uxiu.WatermarkCameraControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WatermarkCameraController;
+			};
+			name = Debug;
+		};
+		089BB720207E581A006FCAE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2W3D7G5P4;
+				INFOPLIST_FILE = WatermarkCameraControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.uxiu.WatermarkCameraControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WatermarkCameraController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		089BB6E7207E5819006FCAE8 /* Build configuration list for PBXProject "WatermarkCameraController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				089BB716207E581A006FCAE8 /* Debug */,
+				089BB717207E581A006FCAE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		089BB718207E581A006FCAE8 /* Build configuration list for PBXNativeTarget "WatermarkCameraController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				089BB719207E581A006FCAE8 /* Debug */,
+				089BB71A207E581A006FCAE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		089BB71B207E581A006FCAE8 /* Build configuration list for PBXNativeTarget "WatermarkCameraControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				089BB71C207E581A006FCAE8 /* Debug */,
+				089BB71D207E581A006FCAE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		089BB71E207E581A006FCAE8 /* Build configuration list for PBXNativeTarget "WatermarkCameraControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				089BB71F207E581A006FCAE8 /* Debug */,
+				089BB720207E581A006FCAE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089BB6E4207E5819006FCAE8 /* Project object */;
+}
